@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/antseed/:path*",
+      "destination": "https://winnings-jigsaw-swung.ngrok-free.dev/:path*"
+    }
+  ]
+}
