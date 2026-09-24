@@ -7,18 +7,27 @@
     "allowArbitraryExtensions": true,
     "skipLibCheck": true,
 
-    /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
 
-    /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": [
+    "src/main.ts",
+    "src/aiDirector.ts",
+    "vite.config.ts"
+  ],
+  "exclude": [
+    "src/**/*backup*.ts",
+    "src/**/*before*.ts",
+    "src/main.backup.ts",
+    "src/main.*.backup.ts",
+    "src/main-*.ts"
+  ]
 }
