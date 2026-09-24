@@ -5,3 +5,6 @@ dist/
 !.env.example
 .vite/
 .DS_Store
+
+client/temp-animations/
+client/temp-character/
